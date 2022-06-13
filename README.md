@@ -1,8 +1,12 @@
 # Dash @ Snowflake Summit 2020
 
+<p align="center">
+  <img style="width: 200px;" src="assets/dash1.jpg">
+  <img style="width: 200px;" src="assets/dash2.png">
+  <img style="width: 200px;" src="assets/dash0.jpg">
+</p>
+
 This repository contains Snowpark for Python and Streamlist code for my sessions at [Snowflake Summit 2020](https://www.snowflake.com/summit/). You can find my sessions here -- https://bit.ly/DashAtSummit.
-
-
 ___
 
 ### CL209B Data Collaboration for The Climate Workshop
