@@ -36,7 +36,7 @@ channels = ["Search engine", "Social media", "Email", "Video"]
 budgets = []
 for channel, default, col in zip(channels, df_last_months_allocations["BUDGET"].values, [col1, col1, col2, col2]):
     with col:
-        budget = st.slider(channel, 0, 100, int(default), 5)
+        budget = st.number_input(channel, 0, 100, int(default), 5)
         budgets.append(budget)
 
 st.header("Predicted revenue")
@@ -82,4 +82,4 @@ if submitted:
         session.write_pandas(df, "BUDGET_ALLOCATIONS_AND_ROI")
         # session.sql("INSERT INTO BUDGET_ALLOCATIONS_AND_ROI VALUES ('July'" + "," + str(budgets[0]) + "," + str(budgets[1]) + "," + str(budgets[2]) + "," + str(budgets[3]) + "," + str(predicted_roi) + ")").collect()
         st.success("✅ Successfully wrote budgets & prediction to your Snowflake account!")
-        st.balloons()
+        st.snow()

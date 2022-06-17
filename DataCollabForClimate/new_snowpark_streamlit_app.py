@@ -46,7 +46,7 @@ def main_page():
     st.markdown("### CO2 Emissions By Countries")
 
     countries = ['United States','China','Russia','India','United Kingdom','Germany','Japan','Canada']
-    selected_countries = st.multiselect('',countries, default = countries)
+    selected_countries = st.multiselect('',countries, default = ['United States','China','Russia','India','United Kingdom'])
     st.write("")
     st.markdown("___")
 
@@ -70,7 +70,7 @@ def main_page():
 def page2():
     st.markdown("### Forest Occupied Land")
 
-    threshold = st.slider(label='Forest Occupied Land By Countries',min_value=1000, max_value=2500, value=1800, step=200)
+    threshold = st.number_input(label='Forest Occupied Land By Countries',min_value=1000, max_value=2500, value=1800, step=200)
     st.write("")
     st.markdown("___")
 
