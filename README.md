@@ -1,11 +1,5 @@
 # Dash @ Snowflake Summit 2020
 
-<p align="center">
-  <img style="width: 200px;" src="assets/dash1.jpg">
-  <img style="width: 200px;" src="assets/dash2.png">
-  <img style="width: 200px;" src="assets/dash0.jpg">
-</p>
-
 This repository contains Snowpark for Python and Streamlist code for my sessions at [Snowflake Summit 2020](https://www.snowflake.com/summit/). You can find my sessions here -- https://bit.ly/DashAtSummit.
 ___
 
@@ -37,3 +31,12 @@ Snowpark For Python: [API Source Code](https://github.com/snowflakedb/snowpark-p
 ## Developer Resources
 
 For other developer resources, please visit http://developers.snowflake.com/get-started. 
+
+___
+
+<p align="center">
+  <img style="width: 200px;" src="assets/dash1.jpg">
+  <img style="width: 200px;" src="assets/dash2.png">
+  <img style="width: 200px;" src="assets/dash0.jpg">
+</p>
+
