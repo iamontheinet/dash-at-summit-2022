@@ -1,4 +1,5 @@
-# If this is your first time working with Snowpark for Python and Streamlit, I'd recommend that you complete this end-to-end tutorial -- https://quickstarts.snowflake.com/guide/getting_started_with_snowpark_for_python_streamlit/index.html?index=..%2F..index#0
+# If this is your first time working with Snowpark for Python and Streamlit, I'd recommend that you complete the QuickStart Guide. (See link below.)
+# https://quickstarts.snowflake.com/guide/getting_started_with_snowpark_for_python_streamlit/index.html?index=..%2F..index#0
 
 from snowflake.snowpark.session import Session
 from snowflake.snowpark.functions import sum, col
