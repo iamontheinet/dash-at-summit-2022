@@ -1,6 +1,6 @@
-# Dash @ Snowflake Summit 2020
+# Dash @ Snowflake Summit 2022
 
-This repository contains Snowpark for Python and Streamlist code for my sessions at [Snowflake Summit 2020](https://www.snowflake.com/summit/). You can find my sessions here -- https://bit.ly/DashAtSummit.
+This repository contains Snowpark for Python and Streamlist code for my sessions at [Snowflake Summit 2022](https://www.snowflake.com/summit/). You can find my sessions here -- https://bit.ly/DashAtSummit.
 ___
 
 ### CL209B Data Collaboration for The Climate Workshop
