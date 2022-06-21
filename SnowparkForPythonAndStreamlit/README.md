@@ -25,6 +25,28 @@
 * `CREATE OR REPLACE STAGE dash_udfs`
   * NOTE: If you use a different name, update code in the [Jupyter notebook](https://github.com/iamontheinet/dash-at-summit-2022/blob/main/SnowparkForPythonAndStreamlit/Snowpark_For_Python.ipynb)
 
+### Step 5 -- Create table BUDGET_ALLOCATIONS_AND_ROI that holds the last six months of budget allocations and ROI.
+
+```sql
+CREATE or REPLACE TABLE BUDGET_ALLOCATIONS_AND_ROI (
+  MONTH varchar(30),
+  SEARCHENGINE integer,
+  SOCIALMEDIA integer,
+  VIDEO integer,
+  EMAIL integer,
+  ROI float
+);
+
+INSERT INTO BUDGET_ALLOCATIONS_AND_ROI (MONTH, SEARCHENGINE, SOCIALMEDIA, VIDEO, EMAIL, ROI)
+VALUES
+('January',35,50,35,85,8.22),
+('February',75,50,35,85,13.90),
+('March',15,50,35,15,7.34),
+('April',25,80,40,90,13.23),
+('May',95,95,10,95,6.246),
+('June',35,50,35,85,8.22);
+```
+
 ## Usage
 
 ### Step 1 -- Run through the [Jupyter notebook](https://github.com/iamontheinet/dash-at-summit-2022/blob/main/SnowparkForPythonAndStreamlit/Snowpark_For_Python.ipynb)
