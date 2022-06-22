@@ -49,7 +49,9 @@ VALUES
 
 ## Usage
 
-### Step 1 -- Run through the [Jupyter notebook](https://github.com/iamontheinet/dash-at-summit-2022/blob/main/SnowparkForPythonAndStreamlit/Snowpark_For_Python.ipynb)
+### Step 1 -- Update [connection.json](https://github.com/iamontheinet/dash-at-summit-2022/blob/main/SnowparkForPythonAndStreamlit/connection.json) with your Snowflake account details.
+
+### Step 2 -- Run through the [Jupyter notebook](https://github.com/iamontheinet/dash-at-summit-2022/blob/main/SnowparkForPythonAndStreamlit/Snowpark_For_Python.ipynb)
 
 NOTE: You will need to create a couple of tables using `campaign_spend.csv` and `monthly_revenue.csv` files. The other option is to load data from the files instead of from tables.
 
