@@ -9,7 +9,7 @@ For this [worskhop](https://events.snowflake.com/summit/agenda/session/884581), 
 
 ### DM305 Snowpark for Python meets Streamlit!
 
-For this [session](https://events.snowflake.com/summit/agenda/session/833987), you can refer to the code in [SnowparkForPythonAndStreamlit](SnowparkForPythonAndStreamlit) folder.
+For this [session](https://events.snowflake.com/summit/agenda/session/833987), you can refer to the code in [SnowparkForPythonAndStreamlit](SnowparkForPythonAndStreamlit) folder. NOTE: This is the same demo that was presented at the [Snowflake Summit Opening Keynote](https://events.snowflake.com/summit/agenda/session/849836).
 
 ### DM309 Snowpark for Python in 20 Minutes
 
