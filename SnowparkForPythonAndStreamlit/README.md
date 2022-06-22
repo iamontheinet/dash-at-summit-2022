@@ -25,7 +25,7 @@
 * `CREATE OR REPLACE STAGE dash_udfs`
   * NOTE: If you use a different name, update code in the [Jupyter notebook](https://github.com/iamontheinet/dash-at-summit-2022/blob/main/SnowparkForPythonAndStreamlit/Snowpark_For_Python.ipynb)
 
-### Step 5 -- Create table BUDGET_ALLOCATIONS_AND_ROI that holds the last six months of budget allocations and ROI.
+### Step 5 -- Create table BUDGET_ALLOCATIONS_AND_ROI that holds the last six months of budget allocations and ROI
 
 ```sql
 CREATE or REPLACE TABLE BUDGET_ALLOCATIONS_AND_ROI (
@@ -49,7 +49,7 @@ VALUES
 
 ## Usage
 
-### Step 1 -- Update [connection.json](https://github.com/iamontheinet/dash-at-summit-2022/blob/main/SnowparkForPythonAndStreamlit/connection.json) with your Snowflake account details.
+### Step 1 -- Update [connection.json](https://github.com/iamontheinet/dash-at-summit-2022/blob/main/SnowparkForPythonAndStreamlit/connection.json) with your Snowflake account details
 
 ### Step 2 -- Run through the [Jupyter notebook](https://github.com/iamontheinet/dash-at-summit-2022/blob/main/SnowparkForPythonAndStreamlit/Snowpark_For_Python.ipynb)
 
