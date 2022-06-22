@@ -68,6 +68,5 @@ In a terminal window, run the [Streamlit app](https://github.com/iamontheinet/da
 
 If all goes well, you should the following app in your browser window.
 
-<p align="center">
-  <img style="width: 600px;" src="../assets/app.png">
-</p>
+https://user-images.githubusercontent.com/1723932/175127637-9149b9f3-e12a-4acd-a271-4650c47d8e34.mp4
+
