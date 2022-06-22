@@ -59,10 +59,10 @@ The notebook...
 
 * Performs Exploratory Data Analysis (EDA)
 * Creates features for training a model and writes them to a Snowflake table
-* Creates a Stored Proc for training a ML model and uploading it to a stage
+* Creates a Stored Proc for training a ML model and uploads it to a stage
 * Calls the Stored Proc to train the model
 * Creates a User-Defined Function (UDF) that uses the model for inference on new data points passed in as parameters
-  * NOTE: This UDF is called from the Streamlit app
+  * NOTE: This UDF is then called from the Streamlit app
 
 ### Step 2 -- Run Streamlit app
 
