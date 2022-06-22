@@ -32,11 +32,12 @@ Snowpark For Python: [API Source Code](https://github.com/snowflakedb/snowpark-p
 
 For other developer resources, please visit http://developers.snowflake.com/get-started. 
 
-___
+## Meet Dash :) on [Twitter](https://twitter.com/iamontheinet) amd [LinkedIn](https://www.linkedin.com/in/dash-desai/)
 
 <p align="center">
   <img style="width: 200px;" src="assets/dash1.jpg">
   <img style="width: 200px;" src="assets/dash2.png">
   <img style="width: 200px;" src="assets/dash0.jpg">
 </p>
+
 
