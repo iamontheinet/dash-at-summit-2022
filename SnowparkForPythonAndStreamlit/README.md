@@ -65,3 +65,9 @@ The notebook...
 ### Step 2 -- Run Streamlit app
 
 In a terminal window, run the [Streamlit app](https://github.com/iamontheinet/dash-at-summit-2022/blob/main/SnowparkForPythonAndStreamlit/Snowpark_Streamlit_Revenue_Prediction.py) by executing `streamlit run Snowpark_Streamlit_Revenue_Prediction.py` 
+
+If all goes well, you should the following app in your browser window.
+
+<p align="center">
+  <img style="width: 600px;" src="../assets/app.png">
+</p>
