@@ -1,3 +1,7 @@
+NOTE: This is the same demo that was presented during the [Snowflake Summit Opening Keynote](https://events.snowflake.com/summit/agenda/session/849836).
+
+___
+
 ### Step 1 -- Conda Environment
 `pip install conda`
   * NOTE: The other option is to use [Miniconda](https://docs.conda.io/en/latest/miniconda.html)
