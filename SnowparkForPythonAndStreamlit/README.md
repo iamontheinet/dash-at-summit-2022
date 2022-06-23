@@ -68,7 +68,7 @@ The notebook...
 * Creates a User-Defined Function (UDF) that uses the model for inference on new data points passed in as parameters
   * NOTE: This UDF is then called from the Streamlit app
 
-### Step 2 -- Run Streamlit app
+### Step 3 -- Run Streamlit app
 
 In a terminal window, run the [Streamlit app](https://github.com/iamontheinet/dash-at-summit-2022/blob/main/SnowparkForPythonAndStreamlit/Snowpark_Streamlit_Revenue_Prediction.py) by executing `streamlit run Snowpark_Streamlit_Revenue_Prediction.py` 
 

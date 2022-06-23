@@ -9,7 +9,7 @@ APP_ICON_URL = "https://i.imgur.com/dBDOHH3.png"
 
 def create_session():
     if "snowpark_session" not in st.session_state:
-        session = Session.builder.configs(json.load(open("../connection.json"))).create()
+        session = Session.builder.configs(json.load(open("connection.json"))).create()
         st.session_state['snowpark_session'] = session
     else:
         session = st.session_state['snowpark_session']
@@ -36,7 +36,7 @@ channels = ["Search engine", "Social media", "Email", "Video"]
 budgets = []
 for channel, default, col in zip(channels, df_last_months_allocations["BUDGET"].values, [col1, col1, col2, col2]):
     with col:
-        budget = st.number_input(channel, 0, 100, int(default), 5)
+        budget = st.slider(channel, 0, 100, int(default), 5)
         budgets.append(budget)
 
 st.header("Predicted revenue")
@@ -77,7 +77,7 @@ st.altair_chart(chart, use_container_width=True)
 
 submitted = st.button("❄️ Save to Snowflake")
 if submitted:
-    with st.spinner("Inflating balloons..."):
+    with st.spinner("Making snowflakes..."):
         df = pd.DataFrame({"MONTH": ["July"], "SEARCHENGINE": [budgets[0]], "SOCIALMEDIA": [budgets[1]], "VIDEO": [budgets[2]], "EMAIL": [budgets[3]], "ROI": [predicted_roi]})
         session.write_pandas(df, "BUDGET_ALLOCATIONS_AND_ROI")
         # session.sql("INSERT INTO BUDGET_ALLOCATIONS_AND_ROI VALUES ('July'" + "," + str(budgets[0]) + "," + str(budgets[1]) + "," + str(budgets[2]) + "," + str(budgets[3]) + "," + str(predicted_roi) + ")").collect()
