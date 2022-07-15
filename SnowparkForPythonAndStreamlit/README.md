@@ -1,4 +1,4 @@
-## This is the same demo that was presented during the [Snowflake Summit Opening Keynote](https://events.snowflake.com/summit/agenda/session/849836).
+## This is the same demo that was presented during the [Snowflake Summit Opening Keynote](https://events.snowflake.com/summit/agenda/session/849836) and adapted for the demo in the keynote at Snowflake Data Cloud World Tour. 
 
 ___
 
